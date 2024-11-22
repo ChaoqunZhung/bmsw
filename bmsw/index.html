@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>笔墨守望</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+    <style>
+        /* 左上角导航按钮样式 */
+        .top-nav {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        
+        .nav-button {
+            cursor: pointer;
+            font-size: 16px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        /* 下拉菜单的隐藏和显示 */
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 40px; /* 确保下拉菜单显示在按钮下方 */
+            left: 0;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 4px;
+        }
+
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-menu a:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* 使用:hover控制下拉菜单的显示 */
+        .top-nav:hover .dropdown-menu {
+            display: block;
+        }
+
+        /* 活动简介样式 */
+        .activity-section {
+            background-color: #f5f5f5;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        /* 加入我们按钮样式 */
+        .participate-button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .participate-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        /* 页脚样式 */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- 登录弹窗 -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <h2>登录</h2>
+            <label for="username">账号：</label>
+            <input type="text" id="username" required>
+            <label for="password">密码：</label>
+            <input type="password" id="password" required onkeydown="handleEnter(event)">
+            <button onclick="validateLogin()">登录</button>
+        </div>
+    </div>
+
+    <!-- 页眉及导航栏 -->
+    <header>
+        <!-- 左上角导航按钮 -->
+        <div class="top-nav">
+            <a href="#" class="nav-button">导航选项</a>
+            <div class="dropdown-menu">
+                <a href="https://www.popibox.cn/u/iyci6d8j" target="_blank">彩虹小信箱</a>
+                <a href="https://mp.weixin.qq.com/s/96vqAp0fz-q4ST-OEvuXhQ" target="_blank">项目联动</a>
+                <a href="#project-style" onclick="showProjectStyle()">项目风采</a>
+            </div>
+        </div>
+        <h1 class="main-title">笔墨守望</h1>
+        <p class="sub-title">与书信相约，传递未来的温度</p>
+    </header>
+
+    <!-- 主内容区域 -->
+    <main>
+        <section id="rainbow-box" class="envelope-section">
+            <div class="text-overlay">
+                <h2>2024年，我们期待着新的开始</h2>
+                <p class="one-line">在时光的邮戳中，书信记录了珍贵的瞬间。愿“笔墨守望”带您回归传统与温情。</p>
+            </div>
+        </section>
+
+        <!-- 内容介绍 -->
+        <section id="project-link" class="activity-section">
+            <h3>活动简介</h3>
+            <p>“笔墨守望”是一场书信交流活动，旨在唤醒人们对传统书信的热爱。参与者可以通过寄送书信，表达对未来的期许与感动。</p>
+        </section>
+
+        <!-- 加入我们按钮 -->
+        <div class="participate-button-container">
+            <a href="https://mp.weixin.qq.com/s/9uZe7XFILnPmrumPEnPKlg" class="participate-button">加入我们</a>
+        </div>
+
+        <!-- 项目风采内容，点击导航栏按钮显示 -->
+        <section id="project-style" class="content-section">
+            <h3>项目风采</h3>
+            <p>展示“笔墨守望”项目中的精彩瞬间和温馨片段。</p>
+            <video id="project-video" controls width="100%">
+                <source src="project-video.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频播放。
+            </video>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2024 笔墨守望 - 让书信温暖传递</p>
+    </footer>
+
+    <script>
+        function handleEnter(event) {
+            if (event.key === 'Enter') {
+                validateLogin();
+            }
+        }
+    </script>
+</body>
+</html>
