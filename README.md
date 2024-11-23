@@ -47,7 +47,7 @@
 
 以下是活动中的一些精彩瞬间：
 
-![活动照片1](image1.jpg)
+![活动照片1](![image1](https://github.com/user-attachments/assets/b79fd659-a3c9-4899-ab40-e35b06363057))
 ![活动照片2](image2.jpg)
 ![活动照片3](image3.jpg)
 ![活动照片4](image4.jpg)
