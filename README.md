@@ -5,7 +5,7 @@
 
 ---
 
-## 导航
+## 功能分区
 
 - [彩虹小信箱](https://www.popibox.cn/u/iyci6d8j)
 - [项目联动](https://mp.weixin.qq.com/s/96vqAp0fz-q4ST-OEvuXhQ)
