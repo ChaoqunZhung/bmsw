@@ -28,11 +28,10 @@
 
 ## 活动照片轮播
 
-> GitHub不支持自动轮播功能，但您可以添加几张活动照片：
-
 以下是活动中的一些精彩瞬间：
 
-![活动照片1](![image1](https://github.com/user-attachments/assets/b79fd659-a3c9-4899-ab40-e35b06363057))
+![活动照片1](![image1](![24](https://github.com/user-attachments/assets/176d0d89-568e-4daf-af80-46d97695b850)
+)
 ![活动照片2](image2.jpg)
 ![活动照片3](image3.jpg)
 ![活动照片4](image4.jpg)
