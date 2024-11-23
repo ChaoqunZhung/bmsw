@@ -45,11 +45,13 @@
 
 > GitHub不支持自动轮播功能，但您可以添加几张活动照片：
 
-- ![活动照片1](image1.jpg)
-- ![活动照片2](image2.jpg)
-- ![活动照片3](image3.jpg)
-- ![活动照片4](image4.jpg)
-- ![活动照片5](image5.jpg)
+以下是活动中的一些精彩瞬间：
+
+![活动照片1](image1.jpg)
+![活动照片2](image2.jpg)
+![活动照片3](image3.jpg)
+![活动照片4](image4.jpg)
+![活动照片5](image5.jpg)
 
 ---
 
