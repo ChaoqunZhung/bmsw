@@ -44,7 +44,7 @@
 
 ## 活动视频
 
-[![活动视频](project-video-thumbnail.jpg)](project-video.mp4 "点击播放活动视频")
+[![活动视频](project-video-thumbnail.jpg)](bmsw.mp4 "点击播放活动视频")
 
 > 视频文件在GitHub上不能直接播放。可以提供视频的链接，或在其他平台上托管视频后提供链接。
 
