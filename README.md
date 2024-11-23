@@ -30,12 +30,11 @@
 
 “笔墨守望”项目中的精彩瞬间和温馨片段：
 
-![活动照片1](![image1](![24](https://github.com/user-attachments/assets/176d0d89-568e-4daf-af80-46d97695b850)
-)
-![活动照片2](image2.jpg)
-![活动照片3](image3.jpg)
-![活动照片4](image4.jpg)
-![活动照片5](image5.jpg)
+![活动照片1](bmsw/image1.jpg)
+![活动照片2](bmsw/image2.jpg)
+![活动照片3](bmsw/image3.jpg)
+![活动照片4](bmsw/image4.jpg)
+![活动照片5](bmsw/image5.jpg)
 
 ---
 
