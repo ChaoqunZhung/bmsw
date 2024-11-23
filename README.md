@@ -30,10 +30,15 @@
 
 “笔墨守望”项目中的精彩瞬间和温馨片段：
 
-<img src="bmsw/image1.jpg" alt="活动照片1" width="50%">
-<img src="bmsw/image2.jpg" alt="活动照片2" width="50%">
-<img src="bmsw/image3.jpg" alt="活动照片3" width="50%">
-<img src="bmsw/image4.jpg" alt="活动照片4" width="50%">
+<p>
+    <img src="bmsw/image1.jpg" alt="活动照片1" width="45%">
+    <img src="bmsw/image2.jpg" alt="活动照片2" width="45%">
+</p>
+<p>
+    <img src="bmsw/image3.jpg" alt="活动照片3" width="45%">
+    <img src="bmsw/image4.jpg" alt="活动照片4" width="45%">
+</p>
+
 
 ---
 
